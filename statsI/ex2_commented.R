@@ -17,18 +17,18 @@ points(xseq,xdt.2,col="blue",type="l")
 
 # add the density function of T(5) in the plot
 xdt.5 <- dt(xseq,df=5)
-points(xseq,xdt.5,col="green",type="l")
+points(xseq,xdt.5,col="blue",type="l")
 
 # add the density function of T(10) in the plot
 xdt.10 <- dt(xseq,df=10)
-points(xseq,xdt.10,col="yellow",type="l")
+points(xseq,xdt.10,col="blue",type="l")
 
 # add the density function of T(30) in the plot
 xdt.30 <- dt(xseq,df=30)
-points(xseq,xdt.30,col="orange",type="l")
+points(xseq,xdt.30,col="blue",type="l")
 # add the density function of T(100) in the plot
 xdt.100 <- dt(xseq,df=100)
-points(xseq,xdt.100,col="purple",type="l")
+points(xseq,xdt.100,col="blue",type="l")
 
 # As the degrees of freedom (or the sample size) of the t-student distribution
 # increases (and the variance decreases), it approximates the standard normal
